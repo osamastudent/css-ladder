@@ -1,0 +1,856 @@
+.dropdown:hover .dropdown-menu{
+    display:block;
+  }
+
+
+#menu{
+    font-weight: 500px;
+    position: relative;
+    }
+    
+    /* .active
+    text-decoration: underline !important; */
+
+    #menu:hover{
+        color: orange;
+
+        
+        }
+    #menu:after{
+        content: '';
+        position: absolute;
+        background-color: orange;
+        height: 3px;
+        width: 0;
+        left: 0;
+        bottom:0;
+        
+        transition: 0.2s;
+    }
+    #menu:hover:after{
+    width: 100%;
+    
+    }
+
+
+.navbar a{
+    font-weight: bold;
+}
+
+.navbar p{
+    font-weight: bold;
+    
+}
+
+
+.navbar .dropdown-item{
+   
+    color: white;
+    
+        }
+    
+        .navbar .dropdown-item:hover{
+    background-color: blueviolet;
+    color:white;
+        }
+        .navbar .dropdown-menu{
+          
+          background-color:black;
+        }
+
+
+        .navbar .dropdown-item:hover{
+            background-color: blueviolet;
+            color:white;
+                }
+
+
+
+        .slider{
+    background-image: url("images/homeslider.png");
+    background-size: 100% 100%;
+    height: 600px;
+
+}
+
+.slider .sliderimg{
+    padding: 160px 180px 0px 360px;
+}
+
+.slider .slidertext{
+    padding: 20px 180px 180px 180px;
+}
+
+
+
+/* .video{
+    background-image: url("images/video.png");
+    background-size: 100% 100%;
+    height: 400px;
+    box-shadow: 0px 8px 15px 10px #9ea1a5;
+
+}
+ */
+
+
+.content p{
+font-size: 14px;
+text-align: justify;
+max-width: 400px;
+margin: auto;
+}
+.content h1{
+
+    max-width: 400px;
+    margin: auto;
+    }
+
+
+    .buttonh:hover{
+        background-color: #AF0000;
+        color: white;
+        
+       }
+
+       .buttonh .ck:hover{
+    
+        color: white;
+        
+       }
+ 
+ 
+
+.video .videopath{
+padding-top: 165px;
+
+}
+
+.textjourney{
+height: 150px;
+line-height: 180px;
+color: white;
+}
+
+
+.balloon{
+background-image: url('images/baloonb.png');
+background-size: 100% 100%;
+height: 480px;
+
+}
+
+
+/* .smallballoon{
+    background-image: url('images/balloons.png');
+background-size: 100% 100%;
+height: 300px;
+background-position: center;
+background-attachment: fixed;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: white;
+} */
+
+
+.smallballoonbutton{
+    background-color: black;
+    color: white;
+   
+}
+.smallballoonbutton:hover{
+    background-color:  white;
+    color: black;
+   
+}
+
+
+.swingbutton{
+    background-color: #a10707a2;
+    color: white;
+}
+.swingbutton:hover{
+    color: orange;
+    background-color: white;
+    border: white;
+    align-items: center;
+    justify-content: center;
+    height: 34px;
+    box-sizing: border-box;
+}
+.balloontext{
+float: right;
+}
+
+
+.footer .footerstatus{
+background-color: rgb(51, 45, 45);
+}
+
+.footer p{
+color: rgb(182, 180, 179);
+padding-right: 30px;
+padding-left: 40px;
+}
+
+.footer strong{
+    padding-left: 40px;
+}
+.logofooter{
+    padding-left: 2px;
+}
+
+
+.content .bellbutton{
+    background-color: red;
+    border: none;
+    color: white;
+}
+/* login page css start from here */
+
+
+ .login-container{
+    margin: 0 auto;
+    max-width:800px;
+padding-top: 50px;
+
+}
+
+.monthly-container{
+    margin: 0 auto;
+    max-width:800px;
+padding-top: 120px;
+
+}
+
+.annual-container{
+    margin: 0 auto;
+    max-width:800px;
+padding-top: 120px;
+
+}
+.thirtydays-container{
+    margin: 0 auto;
+    max-width:800px;
+padding-top: 120px;
+
+}
+
+
+
+.heading{
+text-align: center;
+}
+
+.shopping{
+height: 400px;
+
+}
+
+.membership .card{
+border-left: none;
+border-top: none;
+border-bottom: none;
+}
+
+
+#clickhover{
+    position: relative;
+    color: rgb(176, 102, 245);
+    }
+    
+        
+           #clickhover:after{
+                       content: '';
+            position: absolute;
+            background-color: rgb(152, 230, 50);
+            height: 2px;
+            width: 0;
+            left: 0;
+            bottom:0;
+            
+            transition: 0.3s;
+           }
+    
+           #clickhover:hover:after{
+            width: 100%;
+           }
+
+
+
+
+/* about us page start from here*/
+
+
+.aboutslider{
+background-image: url('images/aboutslider.png');
+background-size: 100% 100%;
+height: 450px;
+color: white;
+display: flex;
+background-position: center;
+background-attachment: fixed;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+
+.aboutcontainer{
+    padding-top: 50px;
+    max-width: 1100px;
+    margin: 0 auto;
+    height: auto;
+    text-align: justify;
+    font-family: montserrat;
+}
+
+/* .about2{
+    background-image: url('images/about2.png');
+    background-size: 100% 100%;
+    height: 300px;
+    text-align: justify;
+} */
+
+
+
+.about3 .card{
+border: none;
+}
+
+.onlytext .card{
+border: none;
+}
+
+.abouttext .card{
+    border: none;
+}
+
+.currentperformancelink{
+position: relative;
+color: rgb(176, 102, 245);
+}
+
+/* .currentperformancelink:hover{
+    color: black;
+       } */
+    
+       .currentperformancelink:after{
+        content: '';
+        position: absolute;
+        background-color: rgb(176, 102, 245);
+        height: 2px;
+        width: 0;
+        left: 0;
+        bottom:0;
+        
+        transition: 0.3s;
+       }
+
+       .currentperformancelink:hover:after{
+        width: 100%;
+       }
+
+
+
+.aboutjoinnow{
+background-color: lavenderblush;
+color: green;
+padding: 6px;
+border-radius: 10px;
+border: none;
+}
+
+.aboutjoinnow:hover{
+    background-color: rgb(241, 230, 230);
+    color: green;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+
+/* the ladder post  start from here */
+
+
+.ladderpostslider{
+    background-image: url('images/ladderpostslider.png');
+    background-size: 100% 100%;
+    align-items: center;
+   display: flex;
+   justify-content: center;
+    color: white;
+flex-direction: column;
+height: 400px;
+background-attachment: fixed;
+background-position: center;
+}
+
+
+
+
+/*     ****************************takingtradeslider start  from here*********************** */
+
+
+ /* .takingtrad-container .takingtradeslider{
+ background-image: url('membersonly/takingtradeslider.png');
+    background-size: 100% 100%;
+    height: 400px;
+    background-position: center;
+    background-attachment: fixed;
+color:white;
+display: flex;
+justify-content: center;
+align-items: center;
+} */
+
+
+/* compound magic css strat from here */
+.compoundmagicslider{
+background-image: url('compoundmagicimages/compoundmagicslider.png');
+background-size: cover;
+height: 400px;
+background-position: center;
+background-attachment: fixed;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+display: flex;
+color: white;
+}
+
+.compoundmagic-container{
+    margin: 0 auto;
+    max-width:1000px;
+}
+
+.compoundmagic-container .fontfamily{
+    font-family: arial;
+}
+
+
+
+/* compound magic css end here */
+
+/* 
+swingtrade start here */
+
+.swingstockcslider{
+    background-image: url('compoundmagicimages/swingtradinslider.png');
+    background-size: cover;
+    height: 400px;
+    background-position: center;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    background-color:#373333
+    }
+
+    .swingtrad-container{
+        margin: 0 auto;
+        max-width:1000px;
+    }
+
+    .swingtradinbutton{
+    background-color: rgb(253, 253, 253);
+    padding: 3px;
+    border-color: rgb(236, 236, 247);
+    border-right: none;
+    border-bottom: none;
+    border-radius: 10px;
+    color: green;
+    }
+
+    .swingtradinbutton:hover{
+    background-color: rgb(216, 192, 192);
+    color: green;
+    padding: 3px;
+    border-radius: 10px;
+    }
+
+    /* end her */
+
+    /* swingtradingwithetfs start here */
+    .swingwithetfslider{
+        background-image: url('compoundmagicimages/swingtradinslider.png');
+        background-size: cover;
+        height: 350px;
+        background-position: center;
+        background-attachment: fixed;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color: white;
+        flex-direction: column;
+        
+    }
+    .swingtradewithtfs-container{
+        margin: auto;
+        max-width: 1000px;
+    }
+
+
+    .balloonfly{
+        background-image: url('images/balloons.png');
+    background-size: 100% 100%;
+    height: 300px;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    }
+    
+    
+    .balloonflybutton{
+        background-color: black;
+        color: white;
+       
+    }
+    .balloonflybutton:hover{
+        background-color:  white;
+        color: black;
+       
+    }
+    
+    .compoundbuttonbutton{
+        background-color: rgb(253, 253, 253);
+        padding: 3px;
+        border-color: rgb(236, 236, 247);
+        border-right: none;
+        border-bottom: none;
+        border-radius: 10px;
+        
+        color: #008000;
+        }
+    
+        .compoundbuttonbutton:hover{
+        background-color: rgb(216, 192, 192);
+        color: #008000;
+        padding: 3px;
+        border-radius: 10px;
+        transition: 0.3s;
+        }
+
+        .backgroundballoon{
+            background-image: url('images/balloons.png');
+            height: 300px;
+            background-position: center;
+            background-attachment: fixed;
+            color:  white;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+        }
+
+/* end here */
+
+/* start here */
+.currentstocks{
+
+    background-image: url('membersonly/currentstocksslider.png');
+    background-size: 100% 100%;
+    align-items: center;
+   display: flex;
+   justify-content: center;
+    color: white;
+flex-direction: column;
+height: 350px;
+background-position: center;
+background-attachment: fixed;
+}
+
+.currentstocks-container{
+margin: 0 auto;
+max-width: 1000px;
+
+}
+
+/* current etf stocks start here */
+
+.currentetftradeslider{
+    background-image: url('membersonly/takingtradeslider.png');
+    background-size: 100% 100%;
+    height: 400px;
+    background-position: center;
+    background-attachment: fixed;
+color:white;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.currentetftrade-container{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.currentetftrade-container img{
+border: solid 50px;
+background-color: black;
+}
+
+
+/* current etfs end here */
+
+/* performance css start here */
+.performanceslider{
+    background-image: url('about/performanceslider.png');
+    background-size: 100% 100%;
+    height: 400px;
+    color: white;
+    display: flex;
+    background-position: center;
+    background-attachment: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    
+    
+    .performance-container{
+        padding-top: 50px;
+        max-width: 1000px;
+        margin: 0 auto;
+        height: auto;
+      
+    }
+
+    .performancebutton{
+        background-color: rgb(253, 253, 253);
+        padding: 3px;
+        border-color: rgb(196, 196, 200);
+        border-right: none;
+        border-top: none;
+        border-radius: 10px;
+        
+        color: #008000;
+        }
+    
+        .performancebutton:hover{
+        background-color:rgb(249, 245, 245);
+        color: #31da0b;
+        padding: 3px;
+        border-radius: 2px;
+        transition: 0.3s;
+        }
+
+        /* performance end here */
+
+        /* aboutthefinderslide start from here */
+        .aboutthefinderslider{
+            background-image: url('about/aboutthefinderslider.png');
+            background-size: 100% 100%;
+            height: 400px;
+            color: white;
+            display: flex;
+            background-position: center;
+            background-attachment: fixed;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            }
+
+            .aboutthefinder-container{
+                margin: 0 auto;
+                max-width: 1000px;
+                height: auto;
+            }
+
+            #aboutjoinlink{
+                color: goldenrod;
+                font-family: arial;
+            }
+            #aboutjoinlink:hover{
+                color: blueviolet;
+            }
+
+
+            /* aboutthefinderslide end here */
+
+            /* faq start from here */
+
+            .faqslider{
+                background-image: url('faqimages/faqslider.png');
+                background-size: 100% 100%;
+                height: 400px;
+                color: white;
+                display: flex;
+                background-position: center;
+                background-attachment: fixed;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+.faq-container{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+
+            .accordian{
+max-width: 800px;
+top: 0;
+            }
+
+            .accordian .contentbox{
+position: relative;
+margin-top: -10px;
+padding: 10px;
+
+            }
+
+            .accordian .contentbox .label{
+            background-color: #F5F5F5;
+            padding: 20px;
+            border: 1px solid rgba(201, 193, 193, 0.847);
+            }
+
+            .accordian .contentbox .label::before{
+                content: '+';
+                font-weight: 500;
+                position: absolute;
+                top: 20px;
+           
+                right: 20px;
+                font-size: 1.5rem;
+            }
+
+
+            .accordian .contentbox .contentbody{
+                position: relative;
+              border: solid #E8E8E8 1px;
+                background-color: #FFFFFF;
+                
+                height: 0;
+overflow: hidden;
+transition: 0.5s;
+
+
+            }
+
+            .accordian .contentbox.active .contentbody{
+height: auto;
+border: 1px solid;
+            }
+
+            .accordian .contentbox.active .label::before{
+content: '-';
+            }
+
+           /* faq end here */   
+
+           .termsslider{
+            background-image: url('faqimages/termsserviceslider.png');
+            background-size: 100% 100%;
+            height: 400px;
+            color: white;
+            display: flex;
+            background-position: center;
+            background-attachment: fixed;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+.termsservice-container{
+margin: 0 auto;
+max-width: 1000px;
+}
+
+/* term of service end here */
+
+/* privacypolicy start from here */ 
+.privacypolicyslider{
+    background-image: url('faqimages/termsserviceslider.png');
+    background-size: 100% 100%;
+    height: 400px;
+    color: white;
+    display: flex;
+    background-position: center;
+    background-attachment: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.privacypolicy-container{
+margin: 0 auto;
+max-width: 1000px;
+}
+
+/* privacypolicy end here */
+/* contact start from here */
+
+.contactslider{
+    background-image: url('faqimages/contactslider.png');
+    background-size: 100% 100%;
+    height: 400px;
+    color: white;
+    display: flex;
+    background-position: center;
+    background-attachment: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container{
+    margin: 0 auto;
+    max-width: 1000px;
+    }
+
+    #contactcommentbutton{
+    background-color: 			#ffd700;
+    border: solid rgb(7, 228, 7) 1px;
+    color: white;
+    
+    
+    }
+    #contactcommentbutton:hover{
+       background-color: orange;
+      color: black;
+        }
+  
+       /*  contact css end here */
+
+
+       /* disclosureslider start from here */
+.disclosureslider{
+    background-image: url('faqimages/termsserviceslider.png');
+    background-size: 100% 100%;
+    height: 400px;
+    color: white;
+    display: flex;
+    background-position: center;
+    background-attachment: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.disclosures-container{
+    margin: 0 auto;
+    max-width: 1000px;
+    }
+
+       /* disclosureslider end here */
+
+
+.card-body .checkk img{
+width: 1210px;
+height: 400px;
+}
+    
+.performimg img{
+    height: 400px;
+    width: 1200px;
+}
